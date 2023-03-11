@@ -14,36 +14,36 @@
         <h2 class="section-hiding">Please Contact Me</h2>
         <div class="card-section">
             <div class="cart">
-                <label for="name">Name</label>
+                <label for="name-input">Name</label>
 
                 <div class="flex">
-                    <input id="name" type="text" placeholder="Name">
-                    <button>Delete Name</button>
-                    <button>Send Name</button>
+                    <input id="name-input" type="text" placeholder="Name">
+                    <button onclick="removeLocalStorageData('name')">Delete Name</button>
+                    <button onclick="getInputValue('name', 'name-input')">Send Name</button>
                 </div>
             </div>
             <div class="cart">
-                <label for="email">Email</label>
+                <label for="email-input">Email</label>
                 <br>
                 <div class="flex">
 
-                    <input id="email" type="text" placeholder="example@gmail.com">
-                    <button>Delete Email</button>
-                    <button>Send Email</button>
+                    <input id="email-input" type="text" placeholder="example@gmail.com">
+                    <button onclick="removeLocalStorageData('email')">Delete Email</button>
+                    <button onclick="getInputValue('email', 'email-input')">Send Email</button>
                 </div>
             </div>
             <div class="cart">
-                <label for="message">Message</label>
+                <label for="message-input">Message</label>
                 <br>
                 <div class="flex">
 
-                    <textarea name="" id="message" cols="30" rows="1" placeholder="Tipping here "></textarea>
-                    <button>Delete Message</button>
-                    <button>Send message</button>
+                    <textarea name="" id="message-input" cols="30" rows="1" placeholder="Tipping here "></textarea>
+                    <button onclick="removeLocalStorageData('message')">Delete Message</button>
+                    <button onclick="getInputValue('message', 'message-input')">Send message</button>
                 </div>
             </div>
         </div>
-        <button class="btn-reset">Reset</button>
+        <button onclick="removeAllData()" class="btn-reset">Reset</button>
     </section>
 
     <script src="./js/app.js"></script>
