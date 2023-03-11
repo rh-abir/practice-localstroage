@@ -16,36 +16,41 @@
 .cart {
     display: block;
     box-sizing: border-box;
-    padding: 0 0 0 10%;
+    padding: 0 0 0 20%;
     margin-top: 10px;
-    
+
 }
 
-.cart input, textarea, button {
+.cart input,
+textarea,
+button {
     margin-top: 4px;
     padding: 10px 15px;
     border-radius: 5px;
 }
-.cart label{
+
+.cart label {
     font-weight: bold;
-    color:blue ;
+    color: blue;
 }
-.cart button{
+
+.cart button {
     background-color: orangered;
     color: white;
 }
-.cart button:focus { 
+
+.cart button:focus {
     background-color: blue;
 }
 
-.flex{
+.flex {
 
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.btn-reset{
+.btn-reset {
     display: block;
     margin: 0 auto;
     background: yellowgreen;
@@ -53,7 +58,8 @@
     color: blue;
     font-weight: bolder;
 }
-.btn-reset:focus{
+
+.btn-reset:focus {
     background-color: yellow;
     color: red;
 }
