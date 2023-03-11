@@ -1,0 +1,59 @@
+.section-container {
+    color: #fff;
+    max-width: 900px;
+    height: 400px;
+    background: #000;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+.section-hiding {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cart {
+    display: block;
+    box-sizing: border-box;
+    padding: 0 0 0 10%;
+    margin-top: 10px;
+    
+}
+
+.cart input, textarea, button {
+    margin-top: 4px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.cart label{
+    font-weight: bold;
+    color:blue ;
+}
+.cart button{
+    background-color: orangered;
+    color: white;
+}
+.cart button:focus { 
+    background-color: blue;
+}
+
+.flex{
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-reset{
+    display: block;
+    margin: 0 auto;
+    background: yellowgreen;
+    margin-top: 50px;
+    color: blue;
+    font-weight: bolder;
+}
+.btn-reset:focus{
+    background-color: yellow;
+    color: red;
+}
